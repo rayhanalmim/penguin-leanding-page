@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind-CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        .font-bebas{
+            font-family: 'Bebas Neue', sans-serif;
+        }
+        .font-roboto{
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- ---------nav-section-------------- -->
+    <nav class="bg-[#FFFBF0] flex flex-col lg:flex-row justify-between px-7 md:px-36 lg:px-36 py-10 items-center">
+        <div>
+            <img class="w-auto lg:w-1/2" src="./icons/logo.png" alt="logo">
+        </div>
+        <div>
+            <ul class="flex gap-3 mb:gap-10 text-[#3C3C3C] font-roboto text-base font-medium">
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <!-- ---------------banner-section----------------- -->
+        <section class="px-4 pb-8 md:px-36 flex flex-col md:flex-row justify-between items-center bg-[#FFFBF0]">
+            <div>
+                <h1 class="font-bebas text-7xl"><span class="text-[#FABE4C]">Be the Penguins</span> <br> of Winter</h1>
+                <p class="leading-6 font-roboto text-base pb-3">Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry.</p>
+                <button class="py-4 px-8 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl text-white text-base">
+                    <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 inline">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                      </svg>                      
+                    BUY NOW
+                </button>
+            </div>
+            <div>
+                <img src="./images/model.png" alt="banner-image">
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
